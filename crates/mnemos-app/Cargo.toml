@@ -1,0 +1,16 @@
+[package]
+name = "mnemos-app"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Sovereign desktop clipboard manager application, CLI commands, and automated QA verification harness"
+license = "MIT OR Apache-2.0"
+
+[[bin]]
+name = "mnemos"
+path = "src/main.rs"
+
+[dependencies]
+mnemos-core = { path = "../mnemos-core" }
+mnemos-ui = { path = "../mnemos-ui" }
+mnemos-platform = { path = "../mnemos-platform" }

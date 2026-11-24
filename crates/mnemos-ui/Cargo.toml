@@ -1,0 +1,10 @@
+[package]
+name = "mnemos-ui"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "2D software rasterization, acrylic glass card, popover preview, and pixel-crisp widgets for Mnemos Clipboard Manager"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+mnemos-core = { path = "../mnemos-core" }

@@ -1,0 +1,10 @@
+[package]
+name = "mnemos-platform"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Cross-platform clipboard backend hooks for macOS, Linux (X11/Wayland), Windows, and NovaOS ring-3"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+mnemos-core = { path = "../mnemos-core" }
